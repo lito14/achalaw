@@ -1,0 +1,558 @@
+body{
+	margin: 0;
+	background: #5BC708;
+	border: 0;
+}
+.subtitulo{
+	font-size: 34px;
+	padding-left: 30px;
+}
+#cabecera{
+	width: 1000px;
+	margin: auto;
+}
+#cabecera img:hover{
+	transform: scale(1.2);
+	transition: 1s;
+}
+#sexion{
+	width: 1000px;
+	margin: auto;
+	background: white;
+	padding-top: 10px;
+	height: auto;
+	padding-bottom: 30px;
+}
+#sexion .portada{
+	height: 700px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition: .3s;
+	overflow: hidden;
+}
+.portada .texto{
+	margin: auto;
+}
+#sexion .portada .texto{
+transform: translateX(-1000px);
+}/*
+#sexion .portada .t3{
+transform: translateX(-1000px);
+}
+#sexion .portada .t1{
+transform: translateX(-800px);
+}*/
+#sexion .portada:hover .texto{
+transform: translateX(0);
+transition: 5s;
+}/*
+#sexion .portada .t3:hover{
+transform: translateX(0);
+transition: 5s;
+}
+#sexion .portada .t1:hover{
+transform: translateX(0);
+transition: 5s;
+}*/
+#sexion .portada:hover{
+	background: skyblue;
+	border: 10px solid red;
+	overflow: inherit;
+}
+#sexion .imgportada:hover{
+	padding-top: 5px;
+	transform: scale(2);
+	transition: 1s;
+}
+#pie {
+	display: flex;
+	font-size: 24px;
+	padding-left: 130px;
+	padding-top: 40px;
+	background: #9C0638;
+	height: 200px;
+}
+#pie img:hover{
+	transform: scale(1.5);
+	transition: 1s;
+}
+.pie_pag{
+	width: 700px;
+	padding-bottom: 0px;
+	color: white;
+}
+.logo_menu{
+	display: flex;
+}
+.logo{
+	padding-left: 30px;
+	width: 200px;
+}
+.angie{
+	padding-left: 200px;
+}
+.lito{
+	padding-left: 200px;
+}
+.menu a{
+	color: 000000ff;
+	background: linear-gradient(to left, #fe344e, #ff7250);
+	text-decoration: none;
+}
+.menu{
+	font-style: none;
+	font-size: 24px;
+	display: inline-block;
+	padding-left: 133px;
+}
+.menu li{
+	background: linear-gradient(to left, #fe344e, #ff7250);
+	display: inline-block;
+	padding-left: 78px;
+	padding-right: 78px;
+	padding-top: 20px;
+	padding-bottom: 8px;
+	border: 4px solid white;
+}
+.menu li:hover{
+	transform: scale(1.2);
+	transition: 1s;	
+}
+.portada .boton{
+	font-size: 17px;
+	text-decoration: none;
+}
+.portada .boton:hover{
+	transform: scale(2.4);
+	transition: 3s;	
+	padding-bottom: 4px;
+}
+.t1{
+	font-size: 70px;
+}
+.t2{
+	font-size: 50px;
+}
+.t3{
+	font-size: 45px;
+}
+.contenedor{
+	font-size: 20px;
+	display: flex;
+}
+.color_a{
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 200px;
+	height: 600px;
+	margin: 0;
+	background: peru;
+	height: auto;
+	display: inline-block;
+}
+
+.margen_acerca{
+	padding-left: 10px;
+	padding-right: 10px;
+	background: white;
+	width: 500px;
+	height: 600px;
+}
+#sexion h2{
+	padding-bottom: 30px;
+}
+.servi{
+	padding-left: 50px;
+}
+.servi .servicios{
+	width: 350px;
+	display: inline-block;
+	height: auto;
+}
+.servi h3{
+	padding-left: 60px;
+}
+.servi p{
+	padding-left: 60px;
+	padding-right: 60px;
+	width: auto;
+}
+.servicios img{
+	border-radius: 50%;
+	padding-left: 40px;
+}
+.servicios{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.titulo_ser{
+	padding: 20px;
+}
+.boton{
+	border-radius: 10px;
+	border: none;
+	background: #fd324e;
+	color: white;
+	padding: 8px 12px;
+	cursor: pointer;
+	background: linear-gradient(to left, #fe344e, #ff7250);
+	text-decoration: none;
+}
+.contacto{
+	width: 600px;
+	margin: auto;
+	font-size: 24px;
+	padding-top: 50px;
+}
+.formulario{
+	display: flex;
+	width: 400px;
+	padding-left: 200px;
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+.col1, .col2{
+	display: flex;
+	flex-direction: column;
+	font-size: 17px;
+}
+.col1{
+	margin-right: 15px;
+}
+.col1 label{
+	padding-top: 7px;
+}
+.col2 label{
+	font-size: 17px;
+}
+.col2{
+	padding-right: 10px;
+	padding-left: 5px;
+}
+.col3{
+	display: inline-block;
+	width: 300px;
+}
+.col3 .boton{
+	margin-top: 15px;
+}
+.formulario label, .sexo, .col2{
+	margin-bottom: 10px;
+}
+a:link{
+	text-decoration: none;
+	color: #5BC708;
+}
+/*media querie*/
+@media screen and (max-width: 800px){
+body{
+		width: auto;
+		max-width: 800px;
+	}
+	#cabecera{
+		width: auto;
+		max-width: 800px;
+		padding-bottom: 0;
+	}
+	.logo_menu{
+		width: auto;
+		max-width: 800px;
+		height: auto;
+	}
+	.logo_menu img{
+		width: 100px;
+		height: 100px;
+		display: inline-block;
+		padding-left: 80px;
+	}
+	.s_menu{
+		width: auto;
+		max-width: 800px;
+	}
+	#sexion{
+		font-size: auto;
+		width: auto;
+		max-width: 800px;
+		height: auto;
+	}
+	#sexion .portada:hover .texto{
+	transform: translateX(0);
+	transition: 3s;
+	}
+	.menu{
+	padding-left: 0;
+	font-style: none;
+	font-size: 20px;
+	}
+	.menu li{
+	display: inline;
+	border: 2px solid white;
+	width: 90px;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 10px;
+	padding-bottom: 2px;
+	}
+	.portada .boton{
+	font-size: 20px;
+	text-decoration: none;
+	}
+	.portada .boton:hover{
+	transform: scale(1.7);
+	transition: 3s;	
+	padding-bottom: 4px;
+	}
+	.t1{
+		font-size: 75px;
+	}
+	.t2{
+		font-size: 60px;
+	}
+	.t3{
+		font-size: 40px;
+	}
+	.margen_acerca{
+	width: auto;
+	max-width: 800px;
+	height: auto;
+	font-size: 20px;
+	display: inline-block;
+	}
+	.contenedor{
+		display: inline;
+	}
+	.color_a{
+	width: auto;
+	max-width: 800px;
+	height: auto;
+	font-size: 20px;
+	display: inline-block;
+	}
+	.color_a img{
+		width: 200px;
+		height: 200px;
+	}
+.servi h3{
+	padding-left: 10px;
+}
+.servi p{
+	font-size: 20px;
+	padding-left: 10px;
+	width: auto;
+	max-width: 800px;
+}
+.servicios img{
+	border-radius: 50%;
+	padding-left: 0;
+	width: 200px;
+	height: 200px;
+}
+.contacto{
+	width: auto;
+	max-width: 800px;
+	font-size: 20px;
+	padding-left: 20px;
+}
+.formulario{
+	padding-left: 20px;
+	display: inline-block;
+	width: auto;
+	max-width: 800;
+}
+.col1, .col2{
+	display: flex;
+	flex-direction: column;
+	font-size: 17px;
+}
+#nombre{
+	width: 200px;
+	max-width: 800px;
+}
+#email{
+	width: 200px;
+	max-width: 800px;
+}
+#comentarios{
+	width: 200px;
+	max-width: 800px;
+}
+.col3{
+	display: inline-block;
+	width: 201px;
+}
+.boton{
+	margin-top: 15px;
+}
+	#pie{
+		width: auto;
+		max-width: 800px;
+		height: auto;
+		padding: 0;
+	}
+	#pie img{
+		width: 80px;
+		height: 80px;
+		padding: 0;
+	}
+	.pie_pag{
+		font-size: 24px;
+	}
+}
+@media screen and (max-width: 650px){
+	body{
+		width: auto;
+		max-width: 800px;
+	}
+	#cabecera{
+		width: auto;
+		max-width: 800px;
+		padding-bottom: 0;
+	}
+	.logo_menu{
+		width: auto;
+		max-width: 800px;
+		height: auto;
+	}
+	.logo_menu img{
+		width: 60px;
+		height: 60px;
+		padding: 0;
+	}
+	.s_menu{
+		width: auto;
+		max-width: 800px;
+	}
+	#sexion{
+		font-size: auto;
+		width: auto;
+		max-width: 800px;
+		height: auto;
+	}
+	#sexion .portada:hover .texto{
+	transform: translateX(0);
+	transition: 3s;
+	}
+	.menu{
+	padding-left: 0;
+	font-style: none;
+	font-size: 17px;
+	}
+	.menu li{
+	border: 2px solid white;
+	width: 70px;
+	padding-left: 42px;
+	padding-right: 42px;
+	padding-top: 10px;
+	padding-bottom: 2px;
+	}
+	.portada .boton{
+	font-size: 17px;
+	text-decoration: none;
+	}
+	.portada .boton:hover{
+	transform: scale(1.7);
+	transition: 3s;	
+	padding-bottom: 4px;
+	}
+	.t1{
+		font-size: 50px;
+	}
+	.t2{
+		font-size: 40px;
+	}
+	.t3{
+		font-size: 25px;
+	}
+	.margen_acerca{
+	width: auto;
+	max-width: 800px;
+	height: auto;
+	font-size: 14px;
+	display: inline-block;
+	}
+	.contenedor{
+		display: inline;
+	}
+	.color_a{
+	width: auto;
+	max-width: 800px;
+	height: auto;
+	font-size: 14px;
+	display: inline-block;
+	}
+	.color_a img{
+		width: 50px;
+		height: 50px;
+	}
+	.servi .servicios{
+	width: 70px;
+	display: inline;
+	height: 70px;
+}
+.servi h3{
+	padding-left: 10px;
+}
+.servi p{
+	font-size: 17px;
+	padding-left: 10px;
+	width: auto;
+	max-width: 800px;
+}
+.servicios img{
+	border-radius: 50%;
+	padding-left: 0px;
+	width: 100px;
+	height: 100px;
+}
+.contacto{
+	width: auto;
+	max-width: 800px;
+	font-size: 17px;
+	padding-left: 20px;
+}
+.formulario{
+	padding-left: 20px;
+	display: inline-block;
+	width: auto;
+	max-width: 800;
+}
+.col1, .col2{
+	display: flex;
+	flex-direction: column;
+	font-size: 17px;
+}
+#nombre{
+	width: 200px;
+	max-width: 800px;
+}
+#email{
+	width: 200px;
+	max-width: 800px;
+}
+#comentarios{
+	width: 200px;
+	max-width: 800px;
+}
+.col3{
+	display: inline-block;
+	width: 201px;
+}
+.boton{
+	margin-top: 15px;
+}
+	#pie{
+		width: auto;
+		max-width: 800px;
+		height: auto;
+		padding: 0;
+	}
+	#pie img{
+		width: 40px;
+		height: 40px;
+		padding: 0;
+	}
+	.pie_pag{
+		font-size: 17px;
+	}
+}
